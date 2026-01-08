@@ -1,5 +1,6 @@
 ---
-title: Prtfolios reviews
+title: Portfolio reviews
+permalink: /_reviews
 ---
 # Critères évalués
 - Clarté du titre de la page

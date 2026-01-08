@@ -7,5 +7,4 @@ layout: default
 author: Anthony MARIE-CALIXTE
 date: 2025
 ---
-# Anthony MARIE-CALIXTE
 ## Description
