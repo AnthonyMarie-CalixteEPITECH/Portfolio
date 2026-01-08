@@ -1,7 +1,5 @@
 ---
-layout: default
 title: Prtfolios reviews
-permalink: /_reviews/
 ---
 # Critères évalués
 - Clarté du titre de la page

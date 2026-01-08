@@ -1,2 +1,1 @@
-# Portfolio
-Creation of a portfolio using jekyll technology
+Création de porfolio via utilisation de la techno "Jekyll" via fichier "markdown"
