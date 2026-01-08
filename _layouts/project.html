@@ -2,21 +2,20 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Anthony MARIE-CALIXTE's portfolio</title>
-        <link rel="stylesheet" href="../assets/css/default.css">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="assets/css/default.css">
     </head>
     <body>
         <header>
             <nav>
-                <a href="/">Anthony's magnificient portfolio</a>
-                <a href="/_about/">A propos</a>
+                <a href="{{ '../' | relative-url}}">Anthony's magnificient portfolio</a>
+                <a href="{{'../about.html' | relative-url}}">A propos</a>
             </nav>
         </header>
         <main>
-            <h1>Anthony MARIE-CALIXTE's portfolio</h1>
+            <h1>{{ page.title }}</h1>
           <section>
-              <h2 id="description">Description</h2>
-
+              {{ content }}
           </section>
         </main>
         <footer>
@@ -27,7 +26,7 @@
                 <li></li>
                 <li></li>
             </ul>
-            <p>Anthony MARIE-CALIXTE_WAC-1 &copy; 2025</p>
+            <p>{{ page.author }}_WAC-1 &copy; {{ page.date }}</p>
         </footer>
     </body>
 </html>

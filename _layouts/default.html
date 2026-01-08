@@ -3,13 +3,13 @@
     <head>
         <meta charset="utf-8">
         <title>{{ page.title }}</title>
-        <link rel="stylesheet" href="../assets/css/default.css">
+        <link rel="stylesheet" href="assets/css/default.css">
     </head>
     <body>
         <header>
             <nav>
-                <a href="/">Anthony's magnificient portfolio</a>
-                <a href="/_about/">A propos</a>
+                <a href="{{ './' | relative-url }}">Anthony's magnificient portfolio</a>
+                <a href="{{'about.html' | relative-url}}">A propos</a>
             </nav>
         </header>
         <main>

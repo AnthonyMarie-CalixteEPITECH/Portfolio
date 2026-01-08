@@ -1,7 +1,6 @@
 ---
 layout: default
-title: A propos
-permalink: /_about/
+title: Moi, plus en détails
 ---
 <!-- 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
@@ -24,7 +23,7 @@ You can find the source code for Jekyll at GitHub:
 - Baccalauréat STI2D 
 
 ## Expériences
-Voir page ["mes projets"](../_projects/index.html)
+Voir page ["mes projets"](./_projects/index.html)
 
 ## Compétences
 - Langage python
