@@ -1,0 +1,29 @@
+* {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: beige;
+}
+
+header * {
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    background-color: antiquewhite;
+}
+
+footer .upper-line {
+    justify-self: center;
+    width: 98%;
+    height: 3px;
+    background-color: burlywood;
+}
+
+footer p {
+    justify-self: center;
+}

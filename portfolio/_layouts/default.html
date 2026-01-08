@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="../assets/css/default.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="/">Anthony's magnificient portfolio</a>
+                <a href="/_about/">A propos</a>
+            </nav>
+        </header>
+        <main>
+            <h1>{{ page.title }}</h1>
+          <section>
+              {{ content }}
+          </section>
+        </main>
+        <footer>
+            <div class="upper-line"></div>
+            <ul class="contact">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <p>{{ page.author }}_WAC-1 &copy; {{ page.date }}</p>
+        </footer>
+    </body>
+</html>
