@@ -4,12 +4,17 @@
         <meta charset="utf-8">
         <title>{{ page.title }}</title>
         <link rel="stylesheet" href="assets/css/default.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Yuji+Boku&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
             <nav>
-                <a href="{{ './' | relative-url }}">Anthony's magnificient portfolio</a>
-                <a href="{{'about.html' | relative-url}}">A propos</a>
+                <a href="./">Home</a>
+                <a href="./about.html">A propos</a>
+                <a href="./_projects/">Projets</a>
             </nav>
         </header>
         <main>
@@ -21,10 +26,9 @@
         <footer>
             <div class="upper-line"></div>
             <ul class="contact">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <!-- <li><a href="linkedIn"><img src="assets/images/linkedIn.png" alt="LinkedIn logo"></a></li>
+                <li><a href="GitHub"><img src="assets/images/GitHub.png" alt="GitHub logo"></a></li>
+                <li><a href="linkedIn"><img src="assets/images/linkedIn.png" alt="LinkedIn logo"></a></li> -->
             </ul>
             <p>{{ page.author }}_WAC-1 &copy; {{ page.date }}</p>
         </footer>

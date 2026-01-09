@@ -8,3 +8,4 @@ author: Anthony MARIE-CALIXTE
 date: 2025
 ---
 ## Description
+Salutations, Je suis Anthony MARIE-CALIXTE, étudiant à la Web@cademy d'EPITECH et grand passionné d'informatique.

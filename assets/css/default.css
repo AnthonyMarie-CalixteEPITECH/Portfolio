@@ -6,15 +6,56 @@
 
 body {
     background-color: beige;
+    height: 100vh;
+}
+/* """""""""""""""""""""""""HEADER""""""""""""""""""""""""" */
+header {
+    text-align: end;
 }
 
-header * {
-    width: 100%;
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-self: right;
+    justify-content: space-around;
+    margin: 1% 2%;
+    width: 30%;
+}
+
+header nav a {
+    font-family: 'Yuji Boku', 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover {
+    font-family: 'Yuji Boku', 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-decoration: overline goldenrod double;
+}
+/* """"""""""""""""""""""""MAIN"""""""""""""""""""""""" */
+main h1 {
     text-align: center;
+    font-style: italic;
+    margin: 2% 0%
 }
 
+main h2 {
+    padding-left: 5%;
+    padding-bottom: 1%;
+    text-align: start;
+    margin: auto;
+}
+
+main p {
+
+}
+
+/* """""""""""""""""""""""FOOTER""""""""""""""""""""""" */
 footer {
     background-color: antiquewhite;
+    justify-content: end;
 }
 
 footer .upper-line {
