@@ -1,0 +1,25 @@
+@import url("./default.css");
+
+main {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+section {
+  margin-top: 22px;
+}
+
+h2 {
+  letter-spacing: 0.02em;
+  position: relative;
+}
+
+li {
+  margin: 2% 0%;
+}
+
+@media (max-width: 930px) {
+  li {
+  margin: 10% 0%;
+  }
+}

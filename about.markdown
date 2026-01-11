@@ -1,43 +1,53 @@
 ---
-layout: default
-title: Moi, plus en détails
+layout: about
+title: "Moi, plus en détails"
 ---
-
+>
 ## Formations
-- 1ère année developeur full-stack WAC 2025-Courant
-- 1ère année cycle ingénieur EPITA 2024-2025
-- Classe préparatoire Technique et Sciences de l'Industrie (TSI) 2021-2023
-- Baccalauréat STI2D 
+- (2025~Courant) 1ère année developeur full-stack WAC 
+- (2024~2025) 1ère année cycle ingénieur EPITA 
+- (2021~2023) Classe préparatoire Technique et Sciences de l'Industrie (TSI) 
+- (2019~2021) Baccalauréat STI2D 
+{: .formation}
 
+>
 ## Expériences
-Voir page ["mes projets"](./_projects/index.html)
+- Stage effectué au centre technique de la collectivité CAP Nord Martinique
+{: .experience}
 
+>
 ## Compétences
-- Langage python
-- Langage shell
-- Langage C
-- Langage Java
-- Langage HTML
-- Langage PHP
-- Langage JavaScript
-- Travail en Peer-to-Peer
+- ### Techniques
+- Python
+- Shell
+- C
+- Java
+- HTML-CSS
+- ### Organisationnelles
+- Git
+- Pair programming
 - Méthodologie Agile
+{: .skills}
 
+>
 ## Qualités
 - Curieux
 - Attentif
 - Autonome
-- Persistant
+- Persévérant
+{: .qualite}
 
+>
 ## Langues
 - Français: langue maternelle, estimé C1
-- Anglais: niveau minimal C1 (score de 915 au TOIEC en 2025)
-- Créole martiniquais: Compréhension et règle de grammaire de base (dialecte maternel), estimé B1
-- Japonais: En début d'apprentissage
+- Anglais: niveau estimé à C1 (930 au TOIEC 2025 + aisance orale et écrite)
+{: .languages}
 
+>
 ## Centres d'intérêt
-- Lecture (mystère, fantastique, documentaire en tout genre)
+- Lecture (mystère, fantastique, comédie, documentaire en tout genre)
 - Sciences de l'informatique, de la mécanique, de la santé et de la chimie
+- Histoire (tout particulièrement l'époque médiévale)
 - Culture japonaise (mangas, histoire, animation)
 - Jeux (videos et de société)
-- Nourriture
+{: .hobbies}

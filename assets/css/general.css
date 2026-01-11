@@ -1,0 +1,31 @@
+@import url('./header.css');
+@import url('./footer.css');
+
+* {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+
+body {
+    background-color: beige;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 100;
+
+  opacity: 0.4;
+  mix-blend-mode: overlay;
+
+  background: url("../images/filter.svg");
+  background-repeat: repeat;
+  background-size: 200px 200px;
+}

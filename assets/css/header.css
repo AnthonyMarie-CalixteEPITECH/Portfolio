@@ -1,0 +1,32 @@
+header {
+    text-align: end;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-self: right;
+    justify-content: space-between;
+    width: 50%;
+    margin: 2% 2%;
+}
+
+     
+header nav a {
+    font-family: 'Yuji Boku', 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover {
+    color: darkblue;
+    text-decoration: overline goldenrod double;
+}
+
+@media (max-width: 930px) {
+    header nav a:hover{
+        text-decoration: underline goldenrod double;
+    }
+}

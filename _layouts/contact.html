@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
         <title>{{ page.title }}</title>
-        <link rel="stylesheet" href="assets/css/default.css">
-        
+        <link rel="stylesheet" href="assets/css/contact.css">
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Yuji+Boku&display=swap" rel="stylesheet">
@@ -21,6 +21,15 @@
         </header>
         <main>
             <h1>{{ page.title }}</h1>
+            <section>
+                <form action="mail-sent.html" class="contact">
+                    <input type="text" name="firstname" id="firstname" placeholder="Votre Prénom..." required>
+                    <input type="text" name="lastname" id="lastname" placeholder="Votre Nom..." required>
+                    <input type="email" name="email" id="email" placeholder="Votre Email..." required>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Posez votre question!" required></textarea>
+                    <input type="submit"></button>
+                </form>
+            </section>
             <section class="content">
                 {{ content }}
             </section>

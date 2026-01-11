@@ -1,0 +1,35 @@
+footer {
+    background-color: rgb(195, 171, 139);
+}
+
+footer .upper-line {
+    justify-self: center;
+    width: 98%;
+    height: 3px;
+    background-color: rgb(44, 37, 29);
+}
+
+footer p {
+    justify-self: center;
+}
+
+footer ul {
+    width: 90%;
+    margin: 0% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer svg {
+    width: 60%;
+}
+
+footer .email {
+    transform: translateY(28%)
+}
